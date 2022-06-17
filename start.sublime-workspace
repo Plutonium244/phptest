@@ -4,12 +4,32 @@
 		"selected_items":
 		[
 			[
-				"a",
-				"a"
+				"strpos",
+				"stripos()"
+			],
+			[
+				"print",
+				"print_r()"
 			],
 			[
 				"fun",
 				"function"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"jso",
+				"json_encode()"
+			],
+			[
+				"exp",
+				"explode()"
+			],
+			[
+				"a",
+				"a"
 			],
 			[
 				"So",
@@ -404,10 +424,6 @@
 				"instance"
 			],
 			[
-				"req",
-				"request"
-			],
-			[
 				"fu",
 				"function"
 			]
@@ -463,8 +479,28 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/phptest",
+		"/C/xampp/htdocs/phptest/views"
+	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/phptest/views/index.html",
+		"/C/xampp/htdocs/phptest/links.csv",
+		"/C/xampp/htdocs/phptest/generator.php",
+		"/C/xampp/htdocs/phptest/saver.php",
+		"/C/xampp/htdocs/phptest/index.php",
+		"/C/xampp/htdocs/phptest/router.php",
+		"/C/xampp/htdocs/phptest/redirector.php",
+		"/C/xampp/htdocs/phptest/.git/index",
+		"/C/xampp/htdocs/phptest/.git/config",
+		"/C/xampp/htdocs/phptest/views/saver.php",
+		"/C/xampp/htdocs/phptest/start.sublime-project",
+		"/C/xampp/htdocs/phptest/welcome.php",
+		"/C/xampp/htdocs/phptest/.htaccess",
+		"/C/Users/HP/Desktop/Работа/Тестовые/soundtext/public/index.php",
+		"/C/Users/HP/Desktop/Работа/Тестовые/soundtext/resources/views/welcome.blade.php",
 		"/C/Users/HP/Downloads/validator_url.php",
 		"/C/Users/HP/Desktop/Работа/Тестовые/soundtext/.env",
 		"/C/Users/HP/Desktop/Работа/Тестовые/soundtext/routes/web.php",
@@ -472,7 +508,6 @@
 		"/C/Users/HP/Desktop/Работа/Тестовые/soundtext/app/Http/Controllers/AjaxController.php",
 		"/C/Users/HP/Desktop/Работа/Тестовые/soundtext/app/Models/SoundFile.php",
 		"/C/Users/HP/Desktop/Работа/Тестовые/soundtext/app/Http/Controllers/FileUploadController.php",
-		"/C/Users/HP/Desktop/Работа/Тестовые/soundtext/resources/views/welcome.blade.php",
 		"/C/Users/HP/Desktop/Работа/ContestController.php",
 		"/C/Users/HP/Desktop/Работа/Тестовые/soundtext/resources/js/jquery.min.js",
 		"/C/Users/HP/Desktop/Работа/Тестовые/soundtext/app/Http/Controllers/SoundController.php",
@@ -578,21 +613,7 @@
 		"/C/OSPanel/domains/yii2-reklamir/common/eventing/SiteAdvertEvents.php",
 		"/C/OSPanel/domains/yii2-reklamir/frontend/config/main-local.php",
 		"/C/OSPanel/domains/yii2-reklamir/frontend/views/site-advert-rubric/list.php",
-		"/C/OSPanel/domains/sitters/frontend/config/main-local.php",
-		"/C/OSPanel/domains/yii2-reklamir/vendor/yiisoft/yii2/base/Event.php",
-		"/C/OSPanel/domains/yii2-reklamir/frontend/config/bootstrap.php",
-		"/C/OSPanel/domains/yii2-reklamir/frontend/config/main.php",
-		"/C/Users/HP/Downloads/app (1).log",
-		"/C/OSPanel/domains/yii2-reklamir/frontend/components/catalog/site/SiteAdvertComponent.php",
-		"/C/OSPanel/domains/yii2-reklamir/frontend/views/site-advert/publish.php",
-		"/C/OSPanel/domains/yii2-reklamir/frontend/widgets/LinkPager.php",
-		"/C/OSPanel/domains/yii2-reklamir/frontend/controllers/SiteAdvertRubricController.php",
-		"/C/OSPanel/domains/yii2-reklamir/vendor/yiisoft/yii2/web/Linkable.php",
-		"/C/OSPanel/domains/yii2-reklamir/frontend/assets/SiteAdvert/ListAsset.php",
-		"/C/OSPanel/domains/yii2-reklamir/vendor/yii-cms/yii2-robokassa/SuccessAction.php",
-		"/C/OSPanel/domains/yii2-reklamir/vendor/yii-cms/yii2-robokassa/ResultAction.php",
-		"/C/OSPanel/domains/yii2-reklamir/vendor/yii-cms/yii2-robokassa/FailAction.php",
-		"/C/OSPanel/domains/yii2-reklamir/frontend/controllers/PaymentController.php"
+		"/C/OSPanel/domains/sitters/frontend/config/main-local.php"
 	],
 	"find":
 	{
@@ -603,6 +624,7 @@
 		"height": 134.0,
 		"where_history":
 		[
+			"C:\\xampp\\htdocs\\phptest,<project filters>",
 			"C:\\Users\\HP\\Desktop\\Работа\\Тестовые\\soundtext,<project filters>",
 			"C:\\OSPanel\\domains\\yii2-reklamir\\frontend\\web\\js",
 			"C:\\OSPanel\\domains\\yii2-reklamir",
@@ -729,8 +751,7 @@
 			"C:\\OSPanel\\domains\\imagespark-lms-backend\\vendor\\guzzlehttp",
 			"C:\\OSPanel\\domains\\imagespark-lms-backend",
 			"C:\\OSPanel\\domains\\imagespark-lms-backend\\database\\migrations",
-			"C:\\OSPanel\\domains\\imagespark-lms-backend",
-			"C:\\OSPanel\\domains\\lr-brothers\\resources\\views\\admin"
+			"C:\\OSPanel\\domains\\imagespark-lms-backend"
 		]
 	},
 	"find_state":
@@ -738,6 +759,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\nrequire 'views/index.html';",
+			"1",
+			"\n<",
 			"|| e.key == \"Shift\"",
 			"()\">",
 			"favicon",
@@ -862,10 +886,7 @@
 			"calculateCost",
 			"ContactsPage",
 			"city->name",
-			"->name",
-			"->sendEmail",
-			"new ContactForm",
-			"SiteHeart"
+			"->name"
 		],
 		"highlight": true,
 		"in_selection": false,
