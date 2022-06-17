@@ -7,6 +7,8 @@ class Router
             $output = json_encode(explode('/', $params));
             $route_parts = (explode('/', $params));
             if (empty($route_parts[2])) { // Стартовая страница
+                require 'viewcounter.php';
+                $views_info = Viewcounter::count();
                 require 'views/index.html';
             } elseif (($route_parts[2]) == 'post') { // Это для сохранения короткой ссылки
                 require 'saver.php';

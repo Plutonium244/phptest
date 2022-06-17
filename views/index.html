@@ -21,6 +21,24 @@
   <div class="form-group" id="outLinkBlock" hidden=true>
     <input class="form-control"  id="outLink" value="teeeext!" type = 'text' ></input>
   </div>
+  <table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Link</th>
+      <th scope="col">Short link part</th>
+      <th scope="col">Count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <?php foreach ($views_info as $row): ?>
+    <tr>
+      <td><?php echo $row[0] ?></td>
+      <td><?php echo $row[1] ?></td>
+      <td><?php echo $row[2] ?></td>
+    </tr>
+    <?php endforeach; ?>
+  </tbody>
+</table>
 
 
 
